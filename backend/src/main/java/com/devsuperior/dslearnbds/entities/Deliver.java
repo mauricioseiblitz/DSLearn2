@@ -52,7 +52,7 @@ public class Deliver implements Serializable{
 			Enrollment enrollment, Lesson lesson) {
 		super();
 		this.id = id;
-		Uri = uri;
+		this.Uri = uri;
 		this.moment = moment;
 		this.status = status;
 		this.feedback = feedback;
